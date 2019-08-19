@@ -1,7 +1,7 @@
 let http=require('http');
 let util=require('util');
 
-http.get('http://www.imooc.com/u/card',(res)=>{
+http.get('http://www.baidu.com/u/card',(res)=>{
   let data=''
   res.on('data',(chunk)=>{
     data+=chunk
